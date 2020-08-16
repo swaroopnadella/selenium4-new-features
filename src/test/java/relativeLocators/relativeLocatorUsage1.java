@@ -30,8 +30,7 @@ public class relativeLocatorUsage1 {
 		driver.findElement(By.name("txtUsername")).sendKeys("Admin");
 		driver.findElement(By.name("txtPassword")).sendKeys("admin123");
 		
-		WebElement login = driver.findElement(withTagName("input")
-												.below(By.id("txtPassword")));
+		WebElement login = driver.findElement(withTagName("input").below(By.id("txtPassword")));
 		
 		login.click();
 		
