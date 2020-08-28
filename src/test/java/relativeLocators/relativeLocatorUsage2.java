@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class relativeLocatorUsage2 {
+public class RelativeLocatorUsage2 {
 	
 	@Test
 	public void relativeLocator1() {
